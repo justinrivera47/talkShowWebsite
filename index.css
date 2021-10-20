@@ -45,10 +45,19 @@ body{
 }
 a{
   font-family: 'Source Sans Pro', sans-serif;
-  color:#266035;
+  color:#010302;
   text-decoration: none;
+  background-color: rgb(243, 243, 243);
+  transition: 1s;
+  padding: 1% 3%;
 }
 
+a:hover {
+  color: white;
+  background-color: black;
+}
+
+/* Top css */
 nav {
   display: flex;
   justify-content: space-between;
@@ -57,11 +66,12 @@ nav {
   top: 0;
   width: 100%;
   z-index: 999;
+  background-color: rgba(200, 200, 200, 0.8);
 }
 
 .logo {
   width: 10%;
-  margin-left: 3%;;
+  margin-left: 2%;;
 }
 
 .links {
@@ -69,3 +79,4 @@ nav {
   display: flex;
   justify-content: space-evenly;
 }
+
